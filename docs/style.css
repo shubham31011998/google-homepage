@@ -5,6 +5,9 @@ body,html
     font-family: arial,sans-serif;
     overflow: hidden;
 }
+input:focus, textarea:focus, select:focus{
+        outline: none!important;
+    }
 .gb_Xe{
     width: 18px;
     height: 18px;
